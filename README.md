@@ -8,6 +8,11 @@ This project will be implementing a system that can help control the flow of tra
 >
 >##  State Diagram 
 > ![Diagram](Untitled Notebook-2.jpg)
+> ![StateDiagram](Stats Diagram -2.jpg)
+> ![StateDiagram](Stats Diagram -3.jpg)
+> ![StateDiagram](Stats Diagram -4.jpg)
+> ![StateDiagram](Stats Diagram -5.jpg)
+> ![StateDiagram](Stats Diagram -6.jpg)
 
 ## Documentation of design 
 
