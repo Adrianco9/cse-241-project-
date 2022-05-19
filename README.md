@@ -7,12 +7,13 @@ This project will be implementing a system that can help control the flow of tra
 > Since the highway is typically going to be busier then the country road for every  4 cars on the highway the passes by the lights will change and for every 2 cars that pass on the country road the light will change  . When the weather sensor changes the counting sensor will cease until it stops snowing .
 >
 >##  State Diagram 
-> ![Diagram](Untitled Notebook-2.jpg)
-> ![StateDiagram](Stats Diagram -2.jpg)
-> ![StateDiagram](Stats Diagram -3.jpg)
-> ![StateDiagram](Stats Diagram -4.jpg)
-> ![StateDiagram](Stats Diagram -5.jpg)
-> ![StateDiagram](Stats Diagram -6.jpg)
+
+ ![Diagram](Untitled Notebook-2.jpg)
+![StateDiagram](Stats Diagram -2.jpg)
+![StateDiagram](Stats Diagram -3.jpg)
+![StateDiagram](Stats Diagram -4.jpg)
+![StateDiagram](Stats Diagram -5.jpg)
+![StateDiagram](Stats Diagram -6.jpg)
 
 ## Documentation of design 
 
