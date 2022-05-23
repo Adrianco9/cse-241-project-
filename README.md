@@ -6,16 +6,14 @@ This project will be implementing a system that can help control the flow of tra
 > In this project we are monitoring a bustling intersection with two roads one being a highway and the other a country road . There are three sensors that are used to control two traffic lights which only have two options : green light for 'GO' and red light for 'STOP'. The first sensor is a counting sensor that counts the amount of cars passing by in either direction , second is a weather sensor that detects whether it's snowing or not and last a sensor enable . Having my inputs being the the two sensors and two lights and the output being how many cars have passed to change the lights .
 > Since the highway is typically going to be busier then the country road for every  4 cars on the highway the passes by the lights will change and for every 2 cars that pass on the country road the light will change  . When the weather sensor changes the counting sensor will cease until it stops snowing .
 >
->##  State Diagram 
-
- ![Diagram](Untitled Notebook-2.jpg)
-![StateDiagram](Stats Diagram -2.jpg)
-![StateDiagram](Stats Diagram -3.jpg)
-![StateDiagram](Stats Diagram -4.jpg)
-![StateDiagram](Stats Diagram -5.jpg)
-![StateDiagram](Stats Diagram -6.jpg)
 
 ## Documentation of design 
+
+![StateDiagram](Stats Diagram 2.0-2.jpg)
+![StateDiagram](Stats Diagram 2.0-3.jpg)
+![StateDiagram](Stats Diagram 2.0-4.jpg)
+![StateDiagram](Stats Diagram 2.0-5.jpg)
+![StateDiagram](Stats Diagram 2.0-6.jpg)
 
 ## BOM
 Wires, 3 LEDs, ANDs, Ors, Nots, resistors, breadboard, 2 flip flops 
@@ -103,6 +101,9 @@ endmodule
 
 ## Analysis
 To test my SV could to make sure that it works I would use the test bench and send it various inputs on each iteration and see if it went to the right state . This would mean I would also print out 1s and 0s with the associated value and check to see if they match up with my state table .
+
+## Test Improvements
+Some improvements that couyld be made to the code is making it a swutch case statement to better emulate th state pattern diagram .As well as maybe a few simiplications to the if statements to avoid redundancy.
 
 
 > 
